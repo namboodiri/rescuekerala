@@ -87,7 +87,6 @@
   <table id="req-table" class="table">
     <thead>
       <tr>
-        <th>District</th>
         <th>Organisation</th>
         <th>Organisation Type</th>
         <th>Organisation Address</th>
@@ -102,7 +101,6 @@
     <tbody>
     {% for req in data %}
         <tr>
-          <td>{{ req.get_district_display }}</td>
           <td>{{ req.organisation }}</td>
           <td>{{ req.organisation_type }}</td>
           <td>{{ req.organisation_address }}</td>
